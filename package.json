@@ -1,0 +1,19 @@
+{
+  "name": "target-page-inspector",
+  "version": "1.0.0",
+  "description": "Headless browser inspection and resource capture tool for a hardcoded target URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.19.2",
+    "mime-types": "^2.1.35",
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
